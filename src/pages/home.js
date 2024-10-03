@@ -27,7 +27,7 @@ const Home = () => {
               Full Stack Developer
             </p>
             <p className="text-sm lg:text-base text-gray-400 mt-2">
-              I'm a 2rd-year Computer Science and Engineering student at GGSIPU, New Delhi.
+              I'm a 2nd-year Computer Science and Engineering student at GGSIPU, New Delhi.
             </p>
             <div className="flex mt-6 space-x-4">
                <button className="bg-pink-600 hover:bg-pink-500 text-white font-semibold py-2 px-5 rounded-3xl" onClick={()=>{window.location.href='https://www.instagram.com/harmannanda_/'}}>
