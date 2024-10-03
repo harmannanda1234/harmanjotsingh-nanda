@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/harmanjotsingh-nanda/static/css/main.d48f8d15.css",
+    "main.js": "/harmanjotsingh-nanda/static/js/main.b6dc5972.js",
+    "static/media/Resume.pdf": "/harmanjotsingh-nanda/static/media/Resume.e05beb16315b30476414.pdf",
+    "static/media/linkd.png": "/harmanjotsingh-nanda/static/media/linkd.9b059982a8795fa69f8a.png",
+    "static/media/x.png": "/harmanjotsingh-nanda/static/media/x.b42e46ddea576b025ab7.png",
+    "static/media/gitu.png": "/harmanjotsingh-nanda/static/media/gitu.e67e0690c16c2845a6f3.png",
+    "static/media/leetcode.png": "/harmanjotsingh-nanda/static/media/leetcode.9e28d8d531d689fdec74.png",
+    "static/media/GitHub.png": "/harmanjotsingh-nanda/static/media/GitHub.d602c8763da57ff3f186.png",
+    "static/media/leetcode-3521542-2944960.webp": "/harmanjotsingh-nanda/static/media/leetcode-3521542-2944960.7254ca46249814141e6d.webp",
+    "index.html": "/harmanjotsingh-nanda/index.html",
+    "main.d48f8d15.css.map": "/harmanjotsingh-nanda/static/css/main.d48f8d15.css.map",
+    "main.b6dc5972.js.map": "/harmanjotsingh-nanda/static/js/main.b6dc5972.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d48f8d15.css",
+    "static/js/main.b6dc5972.js"
+  ]
+}
