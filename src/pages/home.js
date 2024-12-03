@@ -3,12 +3,14 @@ import Navbar from '../components/nav';
 import x from "../assets/x.png"
 import linked from "../assets/linkd.png"
 import resume from "../assets/Resume.pdf"
-import Pro from "../components/line"
+// import Pro from "../components/line"
 import leet from "../assets/leetcode.png"
 import gitu from "../assets/gitu.png"
 import giti from "../assets/GitHub.png"
 import linku from "../assets/linkuu.png"
 import leeeet from "../assets/leetcode-3521542-2944960.webp"
+import Skills from "../components/skills.jsx"
+import Lang from "../components/Lang.jsx"
 
 const Home = () => {
   return (
@@ -18,13 +20,13 @@ const Home = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="flex flex-col justify-center">
             <h1 className="text-4xl lg:text-6xl  text-white">
-              ("Hello World"), my name is
+              ("Hello World"), I am
             </h1>
             <h2 className="text-5xl lg:text-7xl text-[#38d1ff] mt-2">
               Harmanjot Singh Nanda
             </h2>
             <p className="text-lg lg:text-xl text-white mt-4">
-              Full Stack Developer
+              Software Devekoper 
             </p>
             <p className="text-sm lg:text-base text-gray-400 mt-2">
               I'm a 2rd-year Computer Science and Engineering student at GGSIPU, New Delhi.
@@ -33,7 +35,7 @@ const Home = () => {
                <button className="bg-pink-600 hover:bg-pink-500 text-white font-semibold py-2 px-5 rounded-3xl" onClick={()=>{window.location.href='https://www.instagram.com/harmannanda_/'}}>
                 Say Hello!
                 </button>
-                <a href="#projects" className="border border-white px-3 py-2 my-2 rounded-2xl text-white underline hover:text-pink-500 hover:border-pink-600 hover:animate-bounce">
+                <a href="/projects" className="border border-white px-3 py-2 my-2 rounded-2xl text-white underline hover:text-pink-500 hover:border-pink-600 hover:animate-bounce">
                 My Projects
                 </a>
                 </div>
@@ -59,7 +61,7 @@ const Home = () => {
       <div className="flex flex-col md:flex-row items-center justify-between">
         {/* <!-- Left: Years of Experience --> */}
         <div className="ml-0 md:ml-64 text-center md:text-left mb-8">
-          <h1 className="text-[10rem] md:text-[15rem] lg:text-[20rem] font-bold text-[#ffcd41] leading-none">03</h1>
+          <h1 className="text-[10rem] md:text-[15rem] lg:text-[20rem] font-bold text-[#ffcd41] leading-none">04</h1>
           <h3 className="text-lg md:text-xl tracking-wide mt-[-1rem] md:mt-[-2rem]">years of experience</h3>
           <div className="text-3xl md:text-4xl font-bold tracking-wider mt-4">
             <p>Harman</p>
@@ -84,11 +86,17 @@ const Home = () => {
   </div>
 </section>
 
+<section id='skills' className='mt-56 mb-72'>
+  <h1 className='text-center text-6xl font-bold text-white mb-10 mt-32'>Tools & Frameworks</h1>
+  <p className="mt-4 text-center md:text-lg px-4 md:px-0 mb-6 text-zinc-400">Here are the tools and technologies i have been using over the past few years and have gained hands on experience</p>
+  <Lang/>
+  <Skills/>
+</section>
 
-
+{/* 
 <section id="pro" className='bg-gradient-to-r from-[#0b1114] via-[#010607] to-[#02141d] min-h-96 min-w-full mb-20'>
 <Pro/>
-</section>
+</section> */}
 
 <section id="connect" className="bg-gradient-to-r from-[#0b1114] via-[#010607] to-[#02141d] min-h-full min-w-full mt-16 mb-24 ">
 <h2 className="text-center text-6xl font-bold text-white mb-10 mt-32 ">Lets Build Together :)</h2>

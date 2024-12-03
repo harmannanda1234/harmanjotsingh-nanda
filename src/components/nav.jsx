@@ -16,10 +16,10 @@ const Navbar = () => {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <a href="#home" className="hover:text-[#2bbfff] transition duration-300">Home</a> 
-            <a href="#about" className="hover:text-[#2bbfff] transition duration-300">About</a> 
-            <a href="#pro" className="hover:text-[#2bbfff] transition duration-300">Projects</a> 
-            <a href="#connect" className="hover:text-[#2bbfff] transition duration-300">Connect</a> 
+            <a href="/#home" className="hover:text-[#2bbfff] transition duration-300">Home</a> 
+            <a href="/#about" className="hover:text-[#2bbfff] transition duration-300">About</a> 
+            <a href="/projects" className="hover:text-[#2bbfff] transition duration-300">Projects</a> 
+            <a href="/#connect" className="hover:text-[#2bbfff] transition duration-300">Connect</a> 
             {/* <Link to="#about" className="hover:text-[#2bbfff] transition duration-300">About</Link>
             <Link to="#projects" className="hover:text-[#2bbfff] transition duration-300">Projects</Link>
             <Link to="#contact" className="hover:text-[#2bbfff] transition duration-300">Contact</Link> */}
