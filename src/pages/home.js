@@ -86,8 +86,8 @@ const Home = () => {
   </div>
 </section>
 
-<section id='skills' className='mt-56 mb-72'>
-  <h1 className='text-center text-6xl font-bold text-white mb-10 mt-32'>Tools & Frameworks</h1>
+<section id='skills' className='mt-56 mb-48'>
+  <h1 className='text-center text-6xl font-bold text-zinc-300 mb-10 mt-32'>Tools & Frameworks</h1>
   <p className="mt-4 text-center md:text-lg px-4 md:px-0 mb-6 text-zinc-400">Here are the tools and technologies i have been using over the past few years and have gained hands on experience</p>
   <Lang/>
   <Skills/>

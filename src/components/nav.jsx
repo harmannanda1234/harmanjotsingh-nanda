@@ -40,10 +40,10 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="flex flex-col space-y-4 mt-2 bg-black w-36 m-0 p-0">
-              <Link to="#home" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>Home</Link>
-              <Link to="#about" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>About</Link>
-              <Link to="#pro" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>Projects</Link>
-              <Link to="#connect" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>Connect</Link>
+              <Link to="/#home" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>Home</Link>
+              <Link to="/#about" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>About</Link>
+              <Link to="/projects" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>Projects</Link>
+              <Link to="/#connect" className="hover:text-[#2bbfff] transition duration-300 ml-5 mt-3" onClick={toggleMenu}>Connect</Link>
             </div>
           </div>
         )}
