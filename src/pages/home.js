@@ -26,7 +26,7 @@ const Home = () => {
               Harmanjot Singh Nanda
             </h2>
             <p className="text-lg lg:text-xl text-white mt-4">
-              Software Devekoper 
+              Software Developer 
             </p>
             <p className="text-sm lg:text-base text-gray-400 mt-2">
               I'm a 2nd-year Computer Science and Engineering student at GGSIPU, New Delhi.
@@ -48,7 +48,7 @@ const Home = () => {
             <img
               src={linked} 
               alt="Profile"
-              className="rounded-2xl w-fit h-auto object-cover shadow-lg mt-8 "
+              className="rounded-2xl w-fit h-auto object-cover shadow-lg mt-8 sm:h-auto sm:w-fit "
             />
           </div>
         </div>
