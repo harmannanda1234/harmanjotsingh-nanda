@@ -3,7 +3,7 @@ import { Link as ScrollLink } from 'react-scroll'; // Import react-scroll for sm
 import { Link } from 'react-router-dom';
 import './Navbar.css'; // Custom CSS for hamburger menu animations
 
-const Navbar = () => {
+const Newnav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -18,41 +18,41 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6">
-            <ScrollLink 
-              to="home" 
+            <Link 
+              to="/#home" 
               smooth={true} 
               duration={500} 
               className="hover:text-[#2bbfff] cursor-pointer transition duration-300"
             >
               Home
-            </ScrollLink>
-            <ScrollLink 
-              to="about" 
+            </Link>
+            <Link 
+              to="/#about" 
               smooth={true} 
               duration={500} 
               className="hover:text-[#2bbfff] cursor-pointSer transition duration-300"
             >
               About
-            </ScrollLink>
+            </Link>
             <Link to="/projects" className="hover:text-[#2bbfff] transition duration-300">
               Projects
             </Link>
-            <ScrollLink 
-              to="skills" 
+            <Link 
+              to="/#skills" 
               smooth={true} 
               duration={500} 
               className="hover:text-[#2bbfff] cursor-pointer transition duration-300"
             >
               Skills
-            </ScrollLink>
-            <ScrollLink 
-              to="connect" 
+            </Link>
+            <Link 
+              to="/#connect" 
               smooth={true} 
               duration={500} 
               className="hover:text-[#2bbfff] cursor-pointer transition duration-300"
             >
               Connect
-            </ScrollLink>
+            </Link>
           </div>
 
           {/* Mobile Hamburger Icon */}
@@ -69,24 +69,24 @@ const Navbar = () => {
         {isMenuOpen && (
           <div className="md:hidden">
             <div className="flex flex-col space-y-4 mt-2 bg-black p-6">
-              <ScrollLink 
-                to="home" 
+              <Link 
+                to="/#home" 
                 smooth={true} 
                 duration={500} 
                 className="hover:text-[#2bbfff] transition duration-300" 
                 onClick={toggleMenu}
               >
                 Home
-              </ScrollLink>
-              <ScrollLink 
-                to="about" 
+              </Link>
+              <Link 
+                to="/#about" 
                 smooth={true} 
                 duration={500} 
                 className="hover:text-[#2bbfff] transition duration-300" 
                 onClick={toggleMenu}
               >
                 About
-              </ScrollLink>
+              </Link>
               <Link 
                 to="/projects" 
                 className="hover:text-[#2bbfff] transition duration-300" 
@@ -94,23 +94,23 @@ const Navbar = () => {
               >
                 Projects
               </Link>
-              <ScrollLink 
-              to="skills" 
+              <Link 
+              to="/#skills" 
               smooth={true} 
               duration={500} 
               className="hover:text-[#2bbfff] cursor-pointer transition duration-300"
             >
               Skills
-            </ScrollLink>
-              <ScrollLink 
-                to="connect" 
+            </Link>
+              <Link 
+                to="/#connect" 
                 smooth={true} 
                 duration={500} 
                 className="hover:text-[#2bbfff] transition duration-300" 
                 onClick={toggleMenu}
               >
                 Connect
-              </ScrollLink>
+              </Link>
             </div>
           </div>
         )}
@@ -119,4 +119,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Newnav;

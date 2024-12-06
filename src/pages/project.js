@@ -1,6 +1,6 @@
 import React from 'react';
 import Git from '../assets/GitHub.png'; // Assuming the GitHub icon is in your assets
-import Navbar from '../components/nav'; // Importing the Navbar component
+import Newnav from '../components/newnav';
 
 const Project = () => {
   const eventsData = [
@@ -39,10 +39,10 @@ const Project = () => {
   return (
     <div className="bg-gradient-to-r from-[#0b1114] via-[#010607] to-[#02141d] min-h-screen min-w-full text-white">
       {/* Navbar */}
-      <Navbar />
+      <Newnav />
       
       {/* Main content */}
-      <div className="py-10 mt-20">
+      <div className="py-24 ">
         <h2 className="text-center text-6xl font-bold text-white mb-24">Projects</h2>
 
         {/* Projects list in cards */}
