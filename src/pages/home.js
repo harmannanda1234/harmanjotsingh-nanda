@@ -97,41 +97,63 @@ const Home = () => {
 <section id="pro" className='bg-gradient-to-r from-[#0b1114] via-[#010607] to-[#02141d] min-h-96 min-w-full mb-20'>
 <Pro/>
 </section> */}
+<section id="connect" className="bg-gradient-to-r from-[#0b1114] via-[#010607] to-[#02141d] min-h-full min-w-full mt-16 mb-24 py-12">
+  <h2 className="text-center text-6xl font-bold text-white mb-10 mt-32">Let's Build Together :)</h2>
 
-<section id="connect" className="bg-gradient-to-r from-[#0b1114] via-[#010607] to-[#02141d] min-h-full min-w-full mt-16 mb-24 ">
-<h2 className="text-center text-6xl font-bold text-white mb-10 mt-32 ">Lets Build Together :)</h2>
   <div className="min-w-full flex flex-col lg:flex-row justify-center items-center lg:overflow-x-auto space-y-6 lg:space-x-6 px-4 py-12 snap-x snap-mandatory">
     
-    {/* GitHub Profile Image */}
-    <div className="flex-shrink-0 cursor-pointer transition-transform duration-300 hover:scale-110 snap-center">
-      <img
-        src={gitu}
-        alt="GitHub Profile"
-        className="rounded-2xl w-96 h-auto object-cover shadow-lg"
-        onClick={() => window.location.href = 'https://github.com/harmannanda1234'}
-      />
+    {/* GitHub Profile Card */}
+    <div className="flex-shrink-0 w-72 cursor-pointer transition-transform duration-300 hover:scale-110 snap-center bg-gradient-to-b from-gray-900 to-gray-700 rounded-2xl p-6 shadow-lg hover:shadow-xl">
+      <a href="https://github.com/harmannanda1234" target="_blank" rel="noopener noreferrer">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="text-[#f5f5f5] text-6xl">
+            <i className="fab fa-github"></i>
+          </div>
+          <span className="text-[#f5f5f5] text-2xl font-semibold">GitHub</span>
+          <p className="text-gray-400 text-sm text-center">Explore my repositories and collaborative projects.</p>
+        </div>
+      </a>
     </div>
 
-    {/* LeetCode Profile Image */}
-    <div className="flex-shrink-0 cursor-pointer transition-transform duration-400 hover:scale-105 snap-center">
-      <img
-        src={leet}
-        alt="LeetCode Profile"
-        className="rounded-2xl w-[60rem] h-auto object-cover shadow-lg"
-        onClick={() => window.location.href = 'https://leetcode.com/u/harmannanda_/'}
-      />
+    {/* LeetCode Profile Card */}
+    <div className="flex-shrink-0 w-72 cursor-pointer transition-transform duration-400 hover:scale-105 snap-center bg-gradient-to-b from-yellow-500 to-orange-400 rounded-2xl p-6 shadow-lg hover:shadow-xl">
+      <a href="https://leetcode.com/u/harmannanda_/" target="_blank" rel="noopener noreferrer">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="text-[#ffffff] text-6xl">
+            <i className="fas fa-code"></i> {/* Substitute with a LeetCode icon */}
+          </div>
+          <span className="text-white text-2xl font-semibold">LeetCode</span>
+          <p className="text-gray-200 text-sm text-center">Check out my problem-solving journey on LeetCode.</p>
+        </div>
+      </a>
     </div>
 
-    {/* X (Twitter) Profile Image */}
-    <div className="flex-shrink-0 cursor-pointer transition-transform duration-300 hover:scale-110 snap-center">
-      <img
-        src={x}
-        alt="X (Twitter) Profile"
-        className="rounded-4xl w-96 h-auto object-cover shadow-lg"
-        onClick={() => window.location.href = 'https://x.com/harmannanda_06'}
-      />
+    {/* X (Twitter) Profile Card */}
+    <div className="flex-shrink-0 w-72 cursor-pointer transition-transform duration-300 hover:scale-110 snap-center bg-gradient-to-b from-blue-600 to-blue-400 rounded-2xl p-6 shadow-lg hover:shadow-xl">
+      <a href="https://x.com/harmannanda_06" target="_blank" rel="noopener noreferrer">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="text-[#f5f5f5] text-6xl">
+            <i className="fab fa-x-twitter"></i> {/* X (Twitter) icon */}
+          </div>
+          <span className="text-[#f5f5f5] text-2xl font-semibold">X (Twitter)</span>
+          <p className="text-gray-200 text-sm text-center">Follow my tech thoughts and updates on X (Twitter).</p>
+        </div>
+      </a>
     </div>
-    
+
+    {/* Email Me Card */}
+    <div className="flex-shrink-0 w-72 cursor-pointer transition-transform duration-300 hover:scale-110 snap-center bg-gradient-to-b from-green-600 to-green-400 rounded-2xl p-6 shadow-lg hover:shadow-xl">
+      <a href="mailto:hxrmn03@gmail.com">
+        <div className="flex flex-col items-center space-y-4">
+          <div className="text-[#f5f5f5] text-6xl">
+            <i className="fas fa-envelope"></i>
+          </div>
+          <span className="text-[#f5f5f5] text-2xl font-semibold">Email Me</span>
+          <p className="text-gray-200 text-sm text-center">Reach out for collaborations or inquiries.</p>
+        </div>
+      </a>
+    </div>
+
   </div>
 </section>
 
@@ -144,8 +166,8 @@ const Home = () => {
       <div className="flex space-x-6 mb-4 md:mb-0">
         <a href="#home" className="text-gray-600 hover:text-blue-200">Home</a>
         <a href="#about" className="text-gray-600 hover:text-blue-200">About</a>
-        <a href="#pro" className="text-gray-600 hover:text-blue-200">Projects</a>
-        <a href="#connect" className="text-gray-600 hover:text-blue-200">Connect</a>
+        <a href="/projects" className="text-gray-600 hover:text-blue-200">Projects</a>
+        <a href="#skills" className="text-gray-600 hover:text-blue-200">Skills</a>
       </div>
       {/* Right Section: Social Media Links */}
       <div className="flex space-x-4">
@@ -160,7 +182,7 @@ const Home = () => {
         </a>
       </div>
       <div className="mb-2 mt-3 md:mb-0">
-        <h1 className="text-1xl text-gray-700 ">Portfolio(Last Updated September 2024)</h1>
+        <h1 className="text-1xl text-gray-700 ">Portfolio(Last Updated December 2024)</h1>
       </div>
     </div>
     {/* Copyright Section */}
