@@ -1,16 +1,20 @@
 import React from 'react';
 import Navbar from '../components/nav';
-import x from "../assets/x.png"
+// import x from "../assets/x.png"
 import linked from "../assets/linkd.png"
 import resume from "../assets/Resume.pdf"
 // import Pro from "../components/line"
-import leet from "../assets/leetcode.png"
-import gitu from "../assets/gitu.png"
+// import leet from "../assets/leetcode.png"
+// import gitu from "../assets/gitu.png"
 import giti from "../assets/GitHub.png"
 import linku from "../assets/linkuu.png"
 import leeeet from "../assets/leetcode-3521542-2944960.webp"
 import Skills from "../components/skills.jsx"
 import Lang from "../components/Lang.jsx"
+import Card from '../components/Card.jsx';
+import airtel from "../assets/airtel.png"
+import ncrtc from "../assets/ncrtc.png"
+
 
 const Home = () => {
   return (
@@ -85,7 +89,25 @@ const Home = () => {
     </div>
   </div>
 </section>
+<section id="experience" className="py-20 ">
+      <h1 className="text-center text-6xl font-bold text-zinc-300 mb-16 mt-16">Experience</h1>
 
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 justify-items-center">
+  <Card
+    logo={airtel}
+    companyName="BHARTI AIRTEL"
+    skills={['Flask', 'Docker', 'AWS', 'Python']}
+    description="Worked on premises to cloud migration of a Flask application, containerized it using Docker, and deployed it on AWS."
+  />
+  <Card
+    logo={ncrtc}
+    companyName="NCRTC"
+    skills={['NODE JS', 'PostgreSQL', 'Figma']}
+    description="Developed a web application for the organization's internal use, using Node.js and PostgreSQL."
+  />
+</div>
+
+    </section>
 <section id='skills' className='mt-56 mb-48'>
   <h1 className='text-center text-6xl font-bold text-zinc-300 mb-10 mt-32'>Tools & Frameworks</h1>
   <p className="mt-4 text-center md:text-lg px-4 md:px-0 mb-6 text-zinc-400">Here are the tools and technologies i have been using over the past few years and have gained hands on experience</p>
