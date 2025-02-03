@@ -1,10 +1,10 @@
 import React from 'react';
 import Git from '../assets/GitHub.png'; // Assuming the GitHub icon is in your assets
 import Newnav from '../components/newnav';
-// import ProjectImage1 from '../assets/project1.png'; // Placeholder for project images
-// import ProjectImage2 from '../assets/project2.png';
-// import ProjectImage3 from '../assets/project3.png';
-// import ProjectImage4 from '../assets/project4.png';
+import ProjectImage1 from '../assets/aws.png'; // Placeholder for project images
+import ProjectImage2 from '../assets/attendi.png';
+import Discord from '../assets/discord.png';
+import ProjectImage4 from '../assets/smtp.png';
 // import ProjectImage5 from '../assets/project5.png';
 // import ProjectImage6 from '../assets/project6.png';
 
@@ -22,7 +22,7 @@ const Project = () => {
       date: 'AWS VPC, EC2, S3',
       Link: 'https://github.com/harmannanda1234/aws-vpc-deployment',
       description: 'Tier-3 deployment using AWS VPC, EC2, and S3.',
-      // image: ProjectImage1, // Placeholder, add your actual project image
+      image: ProjectImage1, // Placeholder, add your actual project image
     },
 
     {
@@ -38,7 +38,7 @@ const Project = () => {
       date: 'MERN Stack',
       Link: 'https://test-dep1.vercel.app/',
       description: 'Geolocation-based attendance app.',
-      // image: ProjectImage2,
+      image: ProjectImage2,
     },
 
     {
@@ -46,7 +46,7 @@ const Project = () => {
       date: 'NodeJS',
       Link: 'https://github.com/harmannanda1234/discordbot',
       description: 'Responsive Discord bot offering URL shortening services.',
-      // image: ProjectImage3,
+      image: Discord,
     },
 
     {
@@ -54,7 +54,7 @@ const Project = () => {
       date: 'NodeJS',
       Link: 'https://github.com/harmannanda1234/smtp',
       description: 'SMTP server made using Node.js.',
-      // image: ProjectImage4,
+      image: ProjectImage4,
     },
 
     {
