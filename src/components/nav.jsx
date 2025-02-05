@@ -53,6 +53,15 @@ const Navbar = () => {
             >
               Connect
             </ScrollLink>
+            <Link 
+                            to="/blog" 
+                            smooth={true} 
+                            duration={500} 
+                            className="hover:text-[#2bbfff] transition duration-300" 
+                            onClick={toggleMenu}
+                          >
+                            Blogs
+                          </Link>
           </div>
 
           {/* Mobile Hamburger Icon */}
@@ -111,6 +120,15 @@ const Navbar = () => {
               >
                 Connect
               </ScrollLink>
+              <Link 
+                              to="/blog" 
+                              smooth={true} 
+                              duration={500} 
+                              className="hover:text-[#2bbfff] transition duration-300" 
+                              onClick={toggleMenu}
+                            >
+                              Blogs
+                            </Link>
             </div>
           </div>
         )}
