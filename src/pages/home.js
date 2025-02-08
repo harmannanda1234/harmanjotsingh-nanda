@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../components/nav';
 // import x from "../assets/x.png"
 import linked from "../assets/linkd.png"
-import resume from "../assets/resume(4).pdf"
+import resume from "../assets/RESUMEHARMAN.pdf"
 // import Pro from "../components/line"
 // import leet from "../assets/leetcode.png"
 // import gitu from "../assets/gitu.png"
